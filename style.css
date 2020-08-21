@@ -1,0 +1,51 @@
+div {
+        border: 3px solid #ce9d9e;
+      }
+      
+      #asettelu {
+        width: 960px;
+        margin-left: auto; /* <-- Keskittää lohkon suhteessa selainikkunaan */
+        margin-right: auto;
+      }
+
+     
+      #navigaatio {
+        height: 50px;
+        background-color: #e6b8b8;
+      }
+ #ylapalkki {
+        height: 100px;
+        background-color: #e6b8b8;
+      }
+
+#container::after {
+        display: table;
+        content: "";
+        clear: both;
+      } /* ClearFix ratkaisu. Ei tarvitse huomioda, mikä on seuraava elementti */
+
+      #vasen {
+        width: 29%;
+        height: 800px;
+        float: left;
+        background-color: #f1dcdb;
+      }
+
+      #oikea {
+        width: 69.5%;
+        height: 800px;
+        float: right;
+        background-color: #f1dcdb;
+      }
+
+      #alapalkki {
+        height: 50px;
+        clear: both; /* kelluttaminen täytyy lopettaa */
+        background-color: #e6b8b8;
+      }
+a{margin-left: 4em;
+font-size:36;}
+h1{font-size:52;
+margin-left: 6em;
+margin-top: 0.3em; 
+  }
