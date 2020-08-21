@@ -43,9 +43,8 @@ div {
         clear: both; /* kelluttaminen täytyy lopettaa */
         background-color: #e6b8b8;
       }
-a{margin-left: 4em;
+a{margin-left:4em;
 font-size:36;}
 h1{font-size:52;
-margin-left: 6em;
-margin-top: 0.3em; 
+text-align:center;
   }
