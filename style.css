@@ -1,22 +1,32 @@
 div {
-        border: 3px double #00ffff;
+        border: 2px solid #00ffff;
       }
       
       #asettelu {
-        width: 960px;
+        width: 1260px;
         margin-left: auto; /* <-- Keskittää lohkon suhteessa selainikkunaan */
         margin-right: auto;
       }
 
-     
-      #navigaatio {
-        height: 50px;
-        background-color: #e6b8b8;
-      }
- #ylapalkki {
+     #ylapalkki {
         height: 100px;
         background-color: #e6b8b8;
+	border: 15px double #23e7bf;
       }
+      .navigaatio {
+        height: 35px;
+overflow: hidden;
+background-color:#333;
+      }
+.navigaatio a{float: left;
+color: #f2f2f2;
+  text-align: center;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+ 
+.navigaatio-right{float:right;}
 
 #container::after {
         display: table;
@@ -25,31 +35,35 @@ div {
       } /* ClearFix ratkaisu. Ei tarvitse huomioda, mikä on seuraava elementti */
 
       #vasen {
-        width: 29%;
+        width: 25%;
         height: 800px;
         float: left;
         background-color: #f1dcdb;
       }
-
+	
       #oikea {
-        width: 69.5%;
+        width: 99.8%;
         height: 800px;
-        float: right;
-        background-color: #A0EEBF;
+         background-color: #A0EEBF;
       }
 
       #alapalkki {
-        height: 50px;
-        clear: both; /* kelluttaminen täytyy lopettaa */
-        background-color: #e6b8b8;
+        height: 40px;
+
+       clear: both; /* kelluttaminen täytyy lopettaa */
+        background-color: #333;
+
       }
-a{margin-left:2em;
-font-size:36;
-color; green}
+
+body{background-color:lightblue;}
+a{margin-left:1em;
+font-size:26;
+color: red;
+}
 a:hover{background-color:#ddd;}
 a.active{background-color: #4CAF50;
 color:white;}
 h1{font-size:52;
-        color:red;}
+color:red;
 text-align:center;
   }
