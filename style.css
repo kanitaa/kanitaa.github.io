@@ -1,5 +1,5 @@
 div {
-        border: 2px solid #43C6DB;
+        border: 3px solid #E6773C;
       }
       
       #asettelu {
@@ -10,17 +10,18 @@ div {
 
      #ylapalkki {
         height: 100px;
-        background-color: #e6b8b8;
-	border: 15px double #23e7bf;
+        background-color: #333;
+	border: 15px double #FFE5B4;
       }
       .navigaatio {
-        height: 35px;
+        height: 38px;
 overflow: hidden;
 background-color:#333;
 font-size:32;
 color:white;
-text-align:center;
-      }
+text-align:left;border-bottom:0;
+padding:5px 34px;
+    }
 .navigaatio a{float: left;
 color: #f2f2f2;
   text-align: center;
@@ -29,7 +30,9 @@ color: #f2f2f2;
   font-size: 17px;
 }
  
-.navigaatio-right{float:right;}
+.navigaatio-right{float:right;
+border: 0;
+  }
 
 #container::after {
         display: table;
@@ -39,23 +42,28 @@ color: #f2f2f2;
 
       #vasen {
         width: 25%;
-        height: 800px;
+        height: 450px;
         float: left;
-        background-color: #E3FFFF;
+        background-color: #333;
 	text-align:center;
+border-top:0;
       }
-#vasen a{font-size:30;
-color:blue;
-padding:0px;}
-	
+#vasen a{font-size:25;
+color:white;
+padding-bottom:12px;
+padding-left:1em;
+display:inline;
+}
+
+
       #oikea {
         width: 99.8%;
-        height: 800px;
-         background-color: #E3FFFF;
+        height: 900px;
+         background-color: #FFE5B4;
       }
 
       #alapalkki {
-        height: 20px;
+        height: 19px;
        clear: both; /* kelluttaminen täytyy lopettaa */
         background-color: #333;
 text-align:right;
@@ -63,7 +71,7 @@ padding: 10px 28px;
 
       }
 
-body{background-color:lightblue;}
+body{background-color:#EBEBD2;}
 a{
 color: #f2f2f2;
   text-align: center;
@@ -72,7 +80,7 @@ color: #f2f2f2;
   font-size: 17px;
 
 }
-a:hover{background-color:#93AFAF;}
+a:hover{background-color:#AFAF96;}
 a.active{background-color: #93AFAF;
 color:white;}
 h1{font-size:52;
