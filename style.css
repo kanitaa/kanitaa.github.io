@@ -46,6 +46,8 @@ div {
 a{margin-left:2em;
 font-size:36;
 color; green}
+a:active{background-color: #4CAF50;
+color:white;}
 h1{font-size:52;
         color:red;}
 text-align:center;
