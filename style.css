@@ -44,6 +44,9 @@ color: #f2f2f2;
         background-color: #E3FFFF;
 	text-align:center;
       }
+#vasen a{font-size:30;
+color:blue;
+padding:0px;}
 	
       #oikea {
         width: 99.8%;
@@ -76,3 +79,5 @@ h1{font-size:52;
 color:red;
 text-align:center;
   }
+h2{color: black;
+font-size 20;}
