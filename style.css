@@ -56,9 +56,12 @@ color: #f2f2f2;
       }
 
 body{background-color:lightblue;}
-a{margin-left:1em;
-font-size:26;
-color: red;
+a{float: left;
+color: #f2f2f2;
+  text-align: center;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-size: 17px;;
 }
 a:hover{background-color:#ddd;}
 a.active{background-color: #4CAF50;
