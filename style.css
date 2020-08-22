@@ -86,7 +86,7 @@ a:hover img {
 border: none !important;
 display: block;
 	background-color: none!important;
-	padding:0;
+	padding:none !important;
 }
 h1{font-size:52;
 color:red;
