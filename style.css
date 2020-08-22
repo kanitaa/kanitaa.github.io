@@ -85,6 +85,7 @@ color:white;}
 a:hover img {
 border: none !important;
 display: block;
+	background-color: none!important;
 }
 h1{font-size:52;
 color:red;
